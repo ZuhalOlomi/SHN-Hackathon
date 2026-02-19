@@ -101,6 +101,12 @@
     "hints":["More hypo vs basal-bolus inpatient; not routine in hospital"],
     "sourceKeys":["ADA-S016-insulin"] },
 
+  { "id":"BASAL_INSULIN", "label":"Basal insulin (inpatient, class)",
+    "tags":["Inpatient standard","High efficacy","Hypoglycemia risk"],
+    "gates":[],
+    "hints":["Prefer basal ± prandial correction inpatient; analogs reduce nocturnal hypo vs NPH"],
+    "sourceKeys":["ADA-S016-BasalBolus"] },
+
   { "id":"IV_INSULIN", "label":"IV insulin infusion (hospital/ICU)",
     "tags":["Critical care","Tight titration"],
     "gates":[],
