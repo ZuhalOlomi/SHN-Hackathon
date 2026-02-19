@@ -5,26 +5,14 @@
       "field": "patient.labs.egfr",
       "value": 30
     },
-    "EGFR>=20": {
+    "EGFR>=X": {
       "type": "min",
       "field": "patient.labs.egfr",
-      "value": 20
+      "value": 25
     },
     "PeriOpHold": {
       "type": "contextBlock",
       "context": "PeriOp"
-    },
-    "PeriOpCaution": {
-      "type": "contextCaution",
-      "context": "PeriOp"
-    },
-    "Avoid_HF": {
-      "type": "flagBlock",
-      "flag": "HF"
-    },
-    "Caution_HF_SAXA": {
-      "type": "flagCaution",
-      "flag": "HF"
     }
   },
   "banners": {

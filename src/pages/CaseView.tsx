@@ -24,7 +24,7 @@ export default function CaseView(){
   React.useEffect(()=>{ if (mode === 'hospital' && !localStorage.getItem('cc_hosp_tip_seen')) setShowHospTip(true) },[mode])
 
   const kase = modeCases[idx]
-  const visibleCards = kase.allowedCards ? cards.filter(c => kase.allowedCards!.includes(c.id)) : cards
+  const visibleCards = cards
 
   function toggle(id: string) { setSelected(prev => prev.includes(id) ? prev.filter(x=>x!==id) : [...prev, id]) }
 
