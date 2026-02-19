@@ -1,4 +1,76 @@
 {
+  "ADA-S009-metformin": {
+    "title": "Metformin as foundational therapy",
+    "summary": "Metformin remains a first-line agent for T2D when tolerated and eGFR ≥ 30; provides modest weight benefit; monitor B12; does not confer specific cardio-renal protection.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-SGLT2": {
+    "title": "SGLT2 inhibitors: cardiorenal and glycemic benefits",
+    "summary": "SGLT2 inhibitors reduce HF hospitalizations and slow CKD progression independent of glycemic effect; can be initiated at eGFR ≥ 20 for organ protection; glycemic efficacy decreases as eGFR falls below 45.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-SGLT2-CKDHF": {
+    "title": "SGLT2 inhibitors in CKD and heart failure",
+    "summary": "SGLT2 inhibitors are recommended for patients with T2D and CKD (eGFR ≥ 20) or heart failure to reduce disease progression and hospitalizations; class-wide cardiorenal benefit supported by multiple outcome trials.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S016-Periop": {
+    "title": "Peri-operative SGLT2 inhibitor hold",
+    "summary": "Hold SGLT2 inhibitors at least 3–4 days before elective surgery due to risk of euglycaemic diabetic ketoacidosis (eDKA); restart only when eating and drinking normally post-operatively.",
+    "source": "ADA 2026 — Diabetes Care in the Hospital (S016)",
+    "link": "https://doi.org/10.2337/dc26-S016"
+  },
+  "ADA-S009-GLP1": {
+    "title": "GLP-1 receptor agonists: MACE and weight benefits",
+    "summary": "GLP-1 receptor agonists reduce major adverse cardiovascular events (MACE) in patients with established ASCVD; also provide substantial weight loss and moderate A1c reduction with low hypoglycemia risk.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-GLP1-ASCVD": {
+    "title": "GLP-1 receptor agonists and ASCVD/MACE reduction",
+    "summary": "Multiple CVOTs (LEADER, SUSTAIN-6, REWIND, AMPLITUDE-O) demonstrate significant MACE reduction with GLP-1 RAs in T2D patients with established or high-risk ASCVD; preferred over agents without CV benefit when ASCVD is present.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-dual": {
+    "title": "Dual GIP/GLP-1 receptor agonist (tirzepatide)",
+    "summary": "Tirzepatide (dual GIP/GLP-1 RA) provides the greatest weight loss and A1c reduction among available agents; approved for T2D and obesity; consider GI titration and cost.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-TZD": {
+    "title": "Thiazolidinediones: efficacy and safety concerns",
+    "summary": "Pioglitazone has high glycemic efficacy and some CV benefit but causes fluid retention, weight gain, fracture risk, and is contraindicated in heart failure (NYHA class III-IV).",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-TZD-HF": {
+    "title": "Thiazolidinediones contraindicated in heart failure",
+    "summary": "TZDs (thiazolidinediones) cause sodium and water retention and can precipitate or worsen heart failure; avoid in patients with established HF (NYHA class II–IV) due to risk of fluid overload and HF exacerbation.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-meglitinide": {
+    "title": "Meglitinides: meal-based insulin secretagogues",
+    "summary": "Meglitinides (repaglinide, nateglinide) stimulate insulin release at mealtimes; require multiple pre-meal doses; hypoglycemia risk is lower than sulfonylureas but still present; limited CV outcome data.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S016-BasalBolus": {
+    "title": "Basal ± prandial insulin in hospital (non-ICU)",
+    "summary": "Scheduled basal insulin with optional prandial and correction doses is the preferred inpatient regimen for non-ICU patients with T2D; correction-only (sliding scale) insulin is not recommended as the sole inpatient strategy; target BG 140–180 mg/dL.",
+    "source": "ADA 2026 — Diabetes Care in the Hospital (S016)",
+    "link": "https://doi.org/10.2337/dc26-S016"
+  },
+  "ADA-S016-IV": {
+    "title": "IV insulin infusion in the ICU",
+    "summary": "Continuous IV insulin infusion using validated protocols is recommended for critically ill patients; target BG 140–180 mg/dL in the ICU; transition to subcutaneous insulin when patient is stable and eating.",
+    "source": "ADA 2026 — Diabetes Care in the Hospital (S016)",
+    "link": "https://doi.org/10.2337/dc26-S016"
+  },
   "ADA-S009-DPP4": {
     "title": "DPP-4 inhibitors: efficacy and CV neutrality",
     "summary": "Modest glycemic efficacy; generally CV-neutral. Avoid saxagliptin in HF.",
