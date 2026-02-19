@@ -52,7 +52,7 @@ export function evaluatePlan(
     reasons.push('Good: GLP‑1 RA provides MACE benefit for ASCVD')
     citeKeys.push('ADA-S009-GLP1-ASCVD')
   }
-  if (mode==='hospital' && (selected.includes('BASAL_ANALOG') || selected.includes('BASAL_NPH') || selected.includes('BASAL_INSULIN'))) {
+  if (mode==='hospital' && (selected.includes('BASAL_ANALOG') || selected.includes('BASAL_NPH'))) {
     reasons.push('Good: inpatient regimen includes basal insulin')
     citeKeys.push('ADA-S016-BasalBolus')
   }
@@ -68,7 +68,7 @@ export function evaluatePlan(
     suggest.push('GLP1RA'); citeKeys.push('ADA-S009-GLP1-ASCVD')
   }
   if (mode==='hospital'
-    && !selected.some(id => ['BASAL_ANALOG','BASAL_NPH','BASAL_INSULIN','IV_INSULIN','BOLUS_ANALOG','REGULAR_INSULIN','PREMIXED_INSULIN'].includes(id))) {
+    && !selected.some(id => ['BASAL_ANALOG','BASAL_NPH','IV_INSULIN','BOLUS_ANALOG','REGULAR_INSULIN','PREMIXED_INSULIN'].includes(id))) {
     reasons.push('Use basal ± prandial insulin inpatient; avoid correction‑only')
     suggest.push('BASAL_ANALOG'); citeKeys.push('ADA-S016-BasalBolus')
   }
