@@ -1,0 +1,22 @@
+
+:root{
+  --primary:#2B6CB0; --success:#2F855A; --error:#C53030; --warn:#B7791F;
+  --surface:#FFFFFF; --card:#F7FAFC; --text:#1A202C;
+}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff}
+.container{max-width:1100px;margin:0 auto;padding:16px}
+.topbar{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:12px 0}
+.btn{background:var(--primary);color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+.btn.secondary{background:#4A5568}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:var(--card);border:1px solid #E2E8F0;border-radius:12px;padding:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{padding:4px 8px;background:#EDF2F7;border-radius:999px;font-size:12px}
+.therapy{display:flex;flex-wrap:wrap;gap:8px}
+.therapy button{border:1px solid #CBD5E0;background:#fff;border-radius:10px;padding:8px 10px;cursor:pointer}
+.therapy button.selected{background:#ebf5ff;border-color:#90CDF4}
+.banner{padding:12px;border-radius:10px;margin:8px 0}
+.banner.green{background:#E6FFFA;border:1px solid #38B2AC}
+.banner.red{background:#FFF5F5;border:1px solid #F56565}
+.banner.amber{background:#FFFAF0;border:1px solid #ED8936}
+.footer{display:flex;align-items:center;justify-content:space-between;margin-top:12px}

@@ -1,0 +1,16 @@
+{
+  "green": [
+    "Your plan addresses key risks. Good call.",
+    "Organ protection + glycemic control: strong combo."
+  ],
+  "amber": [
+    "Acceptable, but consider organ\u2011protective options if present."
+  ],
+  "red": [
+    "This choice is blocked by a safety gate."
+  ],
+  "citationModal": {
+    "title": "Guideline source",
+    "body": "(Insert 1\u20132 sentences from ADA/Diabetes Canada here)"
+  }
+}

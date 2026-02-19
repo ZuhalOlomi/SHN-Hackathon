@@ -1,0 +1,118 @@
+[
+  {
+    "id": "CLINIC_001",
+    "mode": "clinic",
+    "difficulty": "standard",
+    "patient": {
+      "age": 62,
+      "sex": "F",
+      "vitals": { "bp": "132/78", "hr": 72 },
+      "labs": { "a1c": 7.8, "egfr": 38, "uacr": "positive" },
+      "flags": ["ASCVD", "CKD"],
+      "allergies": [],
+      "meds": ["METFORMIN"],
+      "notes": "Prior MI; albuminuric CKD; weight gain concerns",
+      "context": []
+    },
+    "prompt": "Outpatient follow-up: prioritize safety and organ protection.",
+    "allowedCards": ["SGLT2I", "GLP1RA", "METFORMIN", "DPP4I", "TZD"],
+    "correct": { "cards": ["SGLT2I", "GLP1RA"] }
+  },
+  {
+    "id": "CLINIC_002",
+    "mode": "clinic",
+    "difficulty": "standard",
+    "patient": {
+      "age": 54,
+      "sex": "M",
+      "vitals": { "bp": "128/80", "hr": 74 },
+      "labs": { "a1c": 9.2, "egfr": 82, "uacr": "negative" },
+      "flags": ["Obesity"],
+      "allergies": ["SULFONYLUREA"], 
+      "meds": [],
+      "notes": "Wants weight loss; high A1c; no ASCVD/HF/CKD",
+      "context": []
+    },
+    "prompt": "Glycemic and weight control preferred; avoid sulfonylureas (allergy).",
+    "allowedCards": ["GLP1RA", "SGLT2I", "METFORMIN", "DPP4I"],
+    "correct": { "cards": ["GLP1RA", "METFORMIN"] }
+  },
+  {
+    "id": "CLINIC_003",
+    "mode": "clinic",
+    "difficulty": "standard",
+    "patient": {
+      "age": 68,
+      "sex": "F",
+      "vitals": { "bp": "118/70", "hr": 66 },
+      "labs": { "a1c": 7.4, "egfr": 26, "uacr": "positive" },
+      "flags": ["CKD"],
+      "allergies": ["GLP1RA"],
+      "meds": [],
+      "notes": "Advanced CKD; GLP‑1 RA allergy recorded",
+      "context": []
+    },
+    "prompt": "Advanced CKD with allergy to GLP‑1 RA.",
+    "allowedCards": ["SGLT2I", "DPP4I"],
+    "correct": { "cards": ["SGLT2I"] }
+  },
+
+  {
+    "id": "HOSP_001",
+    "mode": "hospital",
+    "difficulty": "standard",
+    "patient": {
+      "age": 58,
+      "sex": "M",
+      "vitals": { "bp": "124/76", "hr": 88 },
+      "labs": { "a1c": 8.6, "egfr": 70 },
+      "flags": ["PeriOp"],
+      "allergies": [],
+      "meds": ["SGLT2I"],
+      "notes": "Elective surgery tomorrow; was taking an SGLT2 inhibitor at home",
+      "context": ["PeriOp"]
+    },
+    "prompt": "Peri‑operative plan. Avoid SGLT2 inhibitor peri‑op; use insulin framework.",
+    "allowedCards": ["BASAL_INSULIN", "DPP4I"],
+    "correct": { "cards": ["BASAL_INSULIN"] }
+  },
+  {
+    "id": "HOSP_002",
+    "mode": "hospital",
+    "difficulty": "standard",
+    "patient": {
+      "age": 74,
+      "sex": "F",
+      "vitals": { "bp": "138/84", "hr": 82 },
+      "labs": { "a1c": 7.9, "egfr": 48 },
+      "flags": ["HF"],
+      "allergies": [],
+      "meds": [],
+      "notes": "Admitted for pneumonia; non‑ICU; persistent BG 220–260",
+      "context": []
+    },
+    "prompt": "Design an inpatient regimen (non‑ICU).",
+    "allowedCards": ["BASAL_INSULIN"],
+    "correct": { "cards": ["BASAL_INSULIN"] }
+  },
+
+  {
+    "id": "CHAL_001",
+    "mode": "challenge",
+    "difficulty": "standard",
+    "patient": {
+      "age": 60,
+      "sex": "M",
+      "vitals": {},
+      "labs": { "a1c": 7.1, "egfr": 65 },
+      "flags": ["HF"],
+      "allergies": [],
+      "meds": [],
+      "notes": "Quick call: would you use a TZD here?",
+      "context": []
+    },
+    "prompt": "Approve or override: TZD in a patient with HF?",
+    "allowedCards": ["TZD"],
+    "correct": { "cards": [] }
+  }
+]

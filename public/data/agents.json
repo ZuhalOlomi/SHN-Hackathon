@@ -1,0 +1,5 @@
+[
+  { "class":"SGLT2I", "agent":"empagliflozin", "evidence":["ASCVD benefit","HF/CKD benefit"], "egfrStart":20, "periOpHoldDays":3, "notes":"Glycemic effect wanes as eGFR falls" },
+  { "class":"SGLT2I", "agent":"dapagliflozin", "evidence":["HF/CKD benefit"], "egfrStart":20, "periOpHoldDays":3, "notes":"Start ≥20 for cardiorenal benefit" },
+  { "class":"GLP1RA", "agent":"semaglutide (SC)", "evidence":["MACE benefit","Kidney end points"], "periOpCaution":true, "notes":"High weight loss efficacy" }
+]

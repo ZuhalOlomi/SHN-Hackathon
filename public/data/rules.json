@@ -1,0 +1,23 @@
+{
+  "gates": {
+    "EGFR>=30": {
+      "type": "min",
+      "field": "patient.labs.egfr",
+      "value": 30
+    },
+    "EGFR>=X": {
+      "type": "min",
+      "field": "patient.labs.egfr",
+      "value": 25
+    },
+    "PeriOpHold": {
+      "type": "contextBlock",
+      "context": "PeriOp"
+    }
+  },
+  "banners": {
+    "green": "Guideline-concordant",
+    "amber": "Allowed but not optimal",
+    "red": "Blocked: gate failed"
+  }
+}

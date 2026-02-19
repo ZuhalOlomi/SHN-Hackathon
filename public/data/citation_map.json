@@ -1,0 +1,56 @@
+{
+  "ADA-S009-DPP4": {
+    "title": "DPP-4 inhibitors: efficacy and CV neutrality",
+    "summary": "Modest glycemic efficacy; generally CV-neutral. Avoid saxagliptin in HF.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-SU": {
+    "title": "Sulfonylureas and hypoglycemia",
+    "summary": "High glycemic efficacy but increased hypoglycemia and weight gain; caution in older adults and CKD.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-AGI": {
+    "title": "α-Glucosidase inhibitors",
+    "summary": "Postprandial effect; modest A1c reduction; GI side effects common.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-colesevelam": {
+    "title": "Colesevelam",
+    "summary": "Modest A1c reduction; constipation common; can raise triglycerides.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-bromocriptine": {
+    "title": "Bromocriptine-QR",
+    "summary": "Modest glycemic efficacy; orthostasis and nausea may limit use.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-pramlintide": {
+    "title": "Pramlintide",
+    "summary": "Adjunct to insulin; nausea common; reduce insulin to avoid hypoglycemia.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S009-insulin": {
+    "title": "Insulin class notes",
+    "summary": "High efficacy but increased hypoglycemia and weight gain; analogs reduce nocturnal hypoglycemia vs NPH.",
+    "source": "ADA 2026 — Pharmacologic Approaches (S009)",
+    "link": "https://doi.org/10.2337/dc26-S009"
+  },
+  "ADA-S016-insulin": {
+    "title": "Inpatient insulin approach",
+    "summary": "Prefer basal ± prandial insulin inpatient; premixed is less flexible and associated with more hypoglycemia.",
+    "source": "ADA 2026 — Diabetes Care in the Hospital (S016)",
+    "link": "https://doi.org/10.2337/dc26-S016"
+  },
+  "ADA-S016-GLP1-periop": {
+    "title": "GLP-1 RAs & anesthesia",
+    "summary": "Peri-anesthesia caution due to GI effects and delayed gastric emptying; individualize plans.",
+    "source": "ADA 2026 — Diabetes Care in the Hospital (S016)",
+    "link": "https://doi.org/10.2337/dc26-S016"
+  }
+}
